@@ -41,19 +41,19 @@ export const Eform = () => {
       </h2>
       <div className="mb-8">
         <label>First Name: </label>
-        <input type="text" name="fname" className="border-2" required />
+        <input type="text" name="fname" className="border-2 capitalize" required />
       </div>
       <div className="mb-8">
         <label>Last Name: </label>
-        <input type="text" name="lname" className="border-2" required />
+        <input type="text" name="lname" className="border-2 capitalize" required />
       </div>
       <div className="mb-8">
         <label>Email: </label>
-        <input type="email" name="email" className="border-2" required />
+        <input type="email" name="email" className="border-2" required  />
       </div>
       <div className="mb-8">
         <label>Mobile: </label>
-        <input type="number" name="mobile" className="border-2" required />
+        <input type="number" name="mobile" className="border-2" required max="10" />
       </div>
       <div className="mb-8">
         <label>Passward: </label>
